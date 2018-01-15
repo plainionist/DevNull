@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpCopyRecordRecursive", "src\FSharpCopyRecordRecursive\FSharpCopyRecordRecursive.fsproj", "{565B4E7C-1F9B-437D-96C3-D3C30E9C343B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRangeFromListItem", "src\TextRangeFromListItem\TextRangeFromListItem.csproj", "{587BFE97-8674-4E33-A7F7-8AB2E8507E8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{565B4E7C-1F9B-437D-96C3-D3C30E9C343B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565B4E7C-1F9B-437D-96C3-D3C30E9C343B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565B4E7C-1F9B-437D-96C3-D3C30E9C343B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587BFE97-8674-4E33-A7F7-8AB2E8507E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587BFE97-8674-4E33-A7F7-8AB2E8507E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587BFE97-8674-4E33-A7F7-8AB2E8507E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587BFE97-8674-4E33-A7F7-8AB2E8507E8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -74,7 +74,11 @@ let main argv =
 
     let dad = Builder3.create "Peter" [ max; sarah ]
 
-    printfn "Dad: %s" dad.Name
-    printfn "  #children: %i" dad.Children.Length
+    printfn "Dad's name: %s" dad.Name
+    printfn "Dad's #children: %i" dad.Children.Length
+    
+    // Fails :(
+    printfn "Dad of first child: %A" dad.Children.[0].Parent
+    printfn "Dad of second child: %A" dad.Children.[1].Parent
 
     0
